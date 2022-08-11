@@ -4,27 +4,34 @@
 
 **miTurno** is an online appointment manager
 
-miTurno es una aplicación de reserva de turnos impulsada por React.JS, Express y MongoDB que proporciona las funciones principales que esperaría un usuario tanto para visualizar, solicitar y modificar turnos como para administrar sucursales y confirmar asistencia del usuario a dichos turnos como administrador.
+As ***user*** you will be able to set appointments by choosing a branch, date and time. You will see the available hours of each branch and with a color code which are the available hours (green), not available (red) and those that have few appointments available (yellow). You will be able to modify appointments, cancel them and see their history and status.
+
+As ***admin*** you can create, modify and delete branches, manage users and assign operator roles, assign or reassign operators to each branch. In addition, you will be able to act as an operator in any branch.
+
+As ***operator*** you will be able to view all the appointments of the branch in which you were assigned by the administrator, check who has appointments and confirm attendance.
+
+All users can view and modify their profile information.
 
 Video demo [here](#).
 
 ## Technologies
 
-⚙️ **Back-end:** Node.js, PostgreSQL, Sequelize, Express.js, Passport.
+⚙️ **Back-end:** Node.js, MongoDB, Express.js, JWT.
 
-🖱 **Front-end:** React, Context, Axios, Formik, Yup, Semantic UI, Bulma.
+🖱 **Front-end:** React, Redux, Axios, Formik, Yup, Bootstrap.
 
-✅ **Project management:** Trello.
+🛠 **Other:** wireframe.cc for UI wireframing, Lucidchart for schema design and documentation, Mailtrap for mailing.
+
+✅ **Project management:** Jira.
 
 ## ToDos
-- Payment gateway.
-- Inventory refresh.
+- Operator role tasks.
 - Deployment.
 
 ## Contributors
 
-- [Noelia Cossio](https://github.com/noeliacossio)
-- [Mariano Imhoff](https://github.com/MarianoImhoff)
+- [Franco Demontis](https://github.com/FrannDemon)
+- [Evangelina Fernández](https://github.com/Evange-Fernandez)
+- [Ignacio García Riestra](https://github.com/ignacio-garcia-riestra)
 - [Matias Jaliff](https://github.com/matiasjaliff)
-- [Cristina Pazmiño](https://github.com/cristinapazmino59)
-- [Santino Ursino](https://github.com/Santinou1)
+- [Yamila Ortiz Toscano](https://github.com/yamolatix)
