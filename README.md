@@ -1,7 +1,5 @@
 ![miTurno](https://github.com/matiasjaliff/matiasjaliff.github.io/blob/main/images/fulls/miTurno%20500x300px.png)
 
-![AirCommerce](https://github.com/matiasjaliff/miTurno/blob/main/miturno-landing.png)
-
 # miTurno
 
 **miTurno** is an online appointment manager
